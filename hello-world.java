@@ -1,15 +1,22 @@
 import java.util.Scanner;
 
-class MyClass {
+class Main {
     public static void main(String[] args) {
-      float us, can;
-      Scanner canada = new Scanner(System.in);
-      System.out.println("US Currency: $");
 
-      us = canada.nextFloat(); 
-      can = us * 1.23f; 
+        System.out.println("*************************");
+        System.out.println("  US Currency Converter  ");
 
-      canada.close();
-      System.out.println("Canadian Currency: $" + can); 
+        float us, can;
+        Scanner canada = new Scanner(System.in);
+        System.out.println("US Currency: $");
+
+        us = canada.nextFloat(); 
+
+        System.out.println("US Currency: $");
+
+        can = us * 1.23f; 
+
+        canada.close();
+        System.out.println("Canadian Currency: $" + can); 
     }
   } 
