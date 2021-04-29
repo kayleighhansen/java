@@ -10,6 +10,6 @@ class MyClass {
       can = us * 1.23f; 
 
       canada.close();
-      System.out.println("Canadian Currency: $" + can); // Print the sum
+      System.out.println("Canadian Currency: $" + can); 
     }
   } 
