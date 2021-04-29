@@ -1,6 +1,15 @@
-class HelloWorld {
+import java.util.Scanner;
+
+class MyClass {
     public static void main(String[] args) {
-        float dollar = 13.56f;
-        System.out.println(dollar); 
+      float us, can;
+      Scanner canada = new Scanner(System.in);
+      System.out.println("US Currency: $");
+
+      us = canada.nextFloat(); 
+      can = us * 1.23f; 
+
+      canada.close();
+      System.out.println("Canadian Currency: $" + can); // Print the sum
     }
-}
+  } 
