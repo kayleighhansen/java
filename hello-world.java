@@ -18,8 +18,8 @@ class Main {
     }
 
     static void exchangeUS_GBP(float us) {
-        float eur = us / 0.72f;
-        System.out.println("\nBritish Pound: $" + eur); 
+        float gbp = us / 0.72f;
+        System.out.println("\nBritish Pound: $" + gbp); 
     }
 
     static void exchangeUS_ALL(float us) {
