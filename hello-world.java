@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 class Main {
 
     static void exchangeUS_CAN(float us) {
