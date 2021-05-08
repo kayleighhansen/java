@@ -1,11 +1,9 @@
 import javax.swing.JFrame;
-import javax.swing.event.AncestorEvent;
-import javax.swing.event.AncestorListener;
-
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 
-public class LaunchPage implements AncestorListener{
+public class LaunchPage implements ActionListener{
 
     JFrame frame = new JFrame();
     JButton myButton = new JButton("New Window");
@@ -27,9 +25,12 @@ public class LaunchPage implements AncestorListener{
 
 
     @Override
-    public void ancestorRemoved(AncestorEvent event) {
+    public void actionPerformed(ActionEvent e) {
         
     }
+
+
+
     
 }   
 
