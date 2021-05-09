@@ -13,7 +13,7 @@ This is my first time stretching myself to learn to code in Java in two weeks. I
 
 Installing Java on VS Code was a really big roadblock for me, but I got there eventually. I struggled at first getting Java to run and even a simple "Hello World" message to display, but now I have functional currency conversion calculator. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/8JXpwzyA9RA)
 
 # Development Environment
 
