@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package hello;
 
+import java.util.Scanner;
 
 class Main {
 
