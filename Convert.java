@@ -3,7 +3,9 @@ import javax.swing.JLabel;
 
 public class Convert {
     JFrame frame2 = new JFrame();
-    JLabel CAD = new JLabel("CAD", JLabel.CENTER);
+    float canadian = 1654.35f;
+
+    JLabel CAD = new JLabel("canadian", JLabel.CENTER);
 
 
     Convert(){
